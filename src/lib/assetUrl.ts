@@ -1,4 +1,4 @@
-/** Public asset URLs that work on GitHub Pages (/codingwitheleganceportfolio/) and in local dev. */
+/** Public asset URLs that work on GitHub Pages (/portfoliowebsite/) and in local dev. */
 export function assetUrl(path: string): string {
   const normalized = path.replace(/^\//, '')
   const pathWithBase = `${import.meta.env.BASE_URL}${normalized}`.replace(
