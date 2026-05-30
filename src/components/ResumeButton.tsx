@@ -3,8 +3,8 @@ import { assetUrl } from '../lib/assetUrl'
 export default function ResumeButton() {
   return (
     <a
-      href={assetUrl('/BukhosiShuva-Resume-2026.pdf')}
-      download="BukhosiShuva-Resume-2026.pdf"
+      href={assetUrl('/BukhosiShuva_CV_2026.pdf')}
+      download="BukhosiShuva_CV_2026.pdf"
     >
       <button
         type="button"
