@@ -1,3 +1,5 @@
+import PortfolioButton from '../components/PortfolioButton'
+import LatestProjectButton from '../components/LatestProjectButton'
 import ResumeButton from '../components/ResumeButton'
 import { assetUrl } from '../lib/assetUrl'
 
@@ -8,7 +10,7 @@ const featuredPictures = [
     alt: 'City Image',
   },
   {
-    image: assetUrl('/images/beachpicture.jpg'),
+    image: assetUrl('/images/AppStoreListing.png'),
     alt: 'Dressed Up Image',
   },
   {
@@ -43,24 +45,30 @@ export default function Home() {
               <br />
               <br />
               I believe that coding is not just a technical skill, but an art form that allows us to
-              create beautiful and functional solutions to real-world problems. I also believe that
-              challenges and fear must be embraced, with the understanding that every obstacle
-              presents an opportunity for growth, learning, and innovation. I am not afraid to take
-              risks and try new things, as they are essential for progress and true innovation.
+              create beautiful and functional solutions to real-world problems.
+              
               <br />
               <br />
-              My goal is to combine my technical expertise with my creative vision to deliver
-              exceptional results that exceed expectations and change people's lives.
+
+              I also believe that challenges must be embraced, with the understanding that every obstacle
+              presents an opportunity for growth, learning, and innovation. 
+              
               <br />
               <br />
               <span className="italic">
-                Join me on this journey of coding with elegance, where every line of code is a
-                brushstroke on the canvas of technology.
+                I am not afraid to take risks and try new things, as they are essential for progress and true innovation.
+              </span>
+              <br />
+              <br />
+              <span className="italic">
+                My goal is to combine my technical expertise with my creative vision to deliver exceptional results that exceed expectations and change people's lives and make an impact.
               </span>
             </p>
 
-            <div className="pt-8 md:pt-10 flex justify-center md:justify-start">
+            <div className="flex flex-col sm:flex-row items-center md:items-start gap-4 pt-8 md:pt-10">
               <ResumeButton />
+              <PortfolioButton />
+              <LatestProjectButton />
             </div>
           </div>
         </div>

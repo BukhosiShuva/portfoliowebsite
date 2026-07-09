@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import ProjectEvo from './pages/ProjectEvo'
 import ProjectEmerge from './pages/ProjectEmerge'
 import ProjectCurl from './pages/ProjectCurl'
+import LatestProject from './pages/LatestProject'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/portfolioprojectEvo" element={<ProjectEvo />} />
         <Route path="/portfolioprojectEmerge" element={<ProjectEmerge />} />
         <Route path="/portfolioprojectCurl" element={<ProjectCurl />} />
+        <Route path="/latest-project" element={<LatestProject />} />
       </Route>
     </Routes>
   )
